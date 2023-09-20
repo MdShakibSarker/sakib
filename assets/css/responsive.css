@@ -1,0 +1,33 @@
+@media only screen and (max-width: 768px){
+
+	.navbar-nav{
+		margin-top: 25px;
+		text-align: center;
+	}
+	.navbar-nav .nav-item .nav-link{
+		border-bottom: 1px solid lightgray;
+	}
+	.hero-slider .carousel-inner{
+    	height: auto!important;
+
+}
+.product-card-area .card img{
+     height: auto!important;
+}
+.form-body{
+    width: 90%!important;
+}
+}
+
+@media only screen and (max-width: 480px){
+	.hero-slider .carousel-inner{
+    	height: auto!important;
+    	
+}
+.product-card-area .card img{
+    height: auto!important;
+}
+.form-body{
+	width: 90%!important;
+}
+}

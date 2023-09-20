@@ -23,16 +23,29 @@ html,body{
 /* navbar start 
 --------------------------*/
 .navbar{
-    background: var(--primary-color) !important;
-    
+    background-color: var(--primary-color)!important;
 }
 .navbar .navbar-nav .nav-item .nav-link{
-    color:var(--color-white) !important;
+    color: var(--color-white);
     font-size: var(--size-md);
+}
+.navbar .navbar-nav .nav-item .nav-link.active{
+    color: red;
 }
 
 /* navbar end
 -------------------------- */
+.offcanvas .offcanvas-body .btn{
+    color: var(--color-white)!important;
+    background-color: var(--primary-color);
+}
+.offcanvas .offcanvas-body a{
+    color: var(--primary-color);
+}
+.offcanvas .offcanvas-body p{
+    color: black;
+}
+
 /* slider start
 -------------------------- */
 .hero-slider .carousel-inner{
@@ -127,3 +140,133 @@ html,body{
 .page-link{
    color:var(--primary-color)
 }
+
+/* Testimonial Start
+----------------------------*/
+.testimonial-area .card-item{
+    border: 1px solid var(--primary-color);
+    padding: 30px 20px!important;
+    margin-right:15px;
+    margin-left:15px;
+    
+}
+
+
+/* .testimonial-area .card-item .photo{
+    
+
+} */
+.testimonial-area .card-item .photo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+}
+
+.testimonial-area .card-item .card-text p {
+    text-align: justify;
+}
+.testimonial-area .card-item .card-text p i{
+    font-size: 40px;
+    color: lightgray;
+}
+
+.slick-next::before{
+    color: var(--primary-color)!important;
+
+}
+.slick-prev::before{
+    color: var(--primary-color)!important;
+
+}
+.testimonial-area .card-item{
+    border: radius 5px;
+}
+
+
+
+/* Testimonial End
+----------------------------*/
+
+
+
+
+
+
+.signIn-form{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/bg-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.form-body{
+    width: 35%;
+    border: 1px solid lightgray;
+    padding: 30px 20px;
+    background-color: var(--color-white);
+    border-radius: 10px;
+    
+}
+.form-body a{
+    text-decoration: none;
+    color: rgb(101, 101, 101);
+}
+
+.form-body button{
+    width: 100%;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 8px 0px;
+}
+
+.form-body button:hover{
+    background-color: var(--primary-color);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Start
+----------------------------*/
+footer{
+    background-color: var(--primary-color);
+}
+
+
+.main-footer h4{
+    color: var(--color-white);
+    padding-bottom: 15px;
+}
+.main-footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.main-footer ul li{
+    line-height: 30px;
+    color: lightgray;
+}
+
+.main-footer ul li a{
+    text-decoration: none;
+    color: lightgray;
+}
+.main-footer ul li a:hover{
+    padding-left: 8px;
+    transition: .6s;
+}
+
+/* Footer End
+----------------------------*/
